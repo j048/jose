@@ -1,5 +1,4 @@
-const soloNumeros = require('../01.js');
-
+const soloNumeros = require('../01.js');hla 
 describe('soloNumeros', function() {
   it('should return [1, 2] for [1, "Henry", 2]', function() {
       expect(soloNumeros([1, 'Henry', 2])).toStrictEqual([1, 2]);
